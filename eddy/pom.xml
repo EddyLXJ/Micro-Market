@@ -11,6 +11,7 @@
     <modules>
         <module>ed-registry</module>
         <module>ed-gateway</module>
+        <module>ed-item</module>
     </modules>
 
     <name>eddy</name>
