@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09d16c81-d365-4cf8-beff-073836f23800" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ed-item/ed-item-interface/ed-item-interface.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed-item/ed-item-interface/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed-item/ed-item-service/ed-item-service.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed-item/ed-item-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed-item/ed-item-service/src/main/java/com/eddy/EdItemApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed-item/ed-item-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed-item/ed-item.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed-item/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ed-common/ed-common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ed-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ed-common/src/main/java/com/eddy/common/utils/CookieUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ed-common/src/main/java/com/eddy/common/utils/IdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ed-common/src/main/java/com/eddy/common/utils/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ed-common/src/main/java/com/eddy/common/utils/NumberUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ed-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ed-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ed-registry/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ed-registry/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,6 +20,7 @@
     <ignored path="$PROJECT_DIR$/ed-item/target/" />
     <ignored path="$PROJECT_DIR$/ed-item/ed-item-interface/target/" />
     <ignored path="$PROJECT_DIR$/ed-item/ed-item-service/target/" />
+    <ignored path="$PROJECT_DIR$/ed-common/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,15 +51,39 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ed-item/ed-item-interface/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ed-registry/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="462">
               <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ed-common/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ed-common/src/main/java/com/eddy/common/utils/CookieUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="798">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ed-common/src/main/java/com/eddy/common/utils/JsonUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,6 +155,8 @@
         <option value="$PROJECT_DIR$/ed-item/ed-item-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ed-gateway/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ed-registry/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ed-common/src/main/java/com/eddy/common/utils/CookieUtils.java" />
+        <option value="$PROJECT_DIR$/ed-common/src/main/java/com/eddy/common/utils/JsonUtils.java" />
       </list>
     </option>
   </component>
@@ -204,66 +227,37 @@
             <path>
               <item name="eddy" type="b2602c69:ProjectViewProjectNode" />
               <item name="eddy" type="462c0819:PsiDirectoryNode" />
-              <item name="ed-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="ed-common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eddy" type="b2602c69:ProjectViewProjectNode" />
               <item name="eddy" type="462c0819:PsiDirectoryNode" />
-              <item name="ed-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="ed-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eddy" type="b2602c69:ProjectViewProjectNode" />
               <item name="eddy" type="462c0819:PsiDirectoryNode" />
-              <item name="ed-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eddy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eddy" type="462c0819:PsiDirectoryNode" />
-              <item name="ed-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eddy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eddy" type="462c0819:PsiDirectoryNode" />
-              <item name="ed-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eddy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eddy" type="462c0819:PsiDirectoryNode" />
-              <item name="ed-item" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eddy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eddy" type="462c0819:PsiDirectoryNode" />
-              <item name="ed-registry" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eddy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eddy" type="462c0819:PsiDirectoryNode" />
-              <item name="ed-registry" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eddy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eddy" type="462c0819:PsiDirectoryNode" />
-              <item name="ed-registry" type="462c0819:PsiDirectoryNode" />
+              <item name="ed-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eddy" type="b2602c69:ProjectViewProjectNode" />
               <item name="eddy" type="462c0819:PsiDirectoryNode" />
-              <item name="ed-registry" type="462c0819:PsiDirectoryNode" />
+              <item name="ed-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eddy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eddy" type="462c0819:PsiDirectoryNode" />
+              <item name="ed-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -279,9 +273,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ed-common/src/main/java/com/eddy/common/utils" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ed-common/src/main/java/com/eddy/common/utils" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -352,12 +351,12 @@
       <option name="presentableId" value="Default" />
       <updated>1559007841587</updated>
       <workItem from="1559007844845" duration="1640000" />
-      <workItem from="1559009825618" duration="1518000" />
+      <workItem from="1559009825618" duration="2571000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3158000" />
+    <option name="totallyTimeSpent" value="4211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="129" y="13" width="3712" height="2148" extended-state="6" />
@@ -497,6 +496,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ed-common/src/main/java/com/eddy/common/utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ed-common/src/main/java/com/eddy/common/utils/CookieUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ed-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ed-common/src/main/java/com/eddy/common/utils/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
