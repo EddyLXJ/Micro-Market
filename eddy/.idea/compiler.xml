@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ed-item-interface" />
+        <module name="ed-upload" />
         <module name="ed-item-service" />
         <module name="ed-registry" />
         <module name="ed-common" />
@@ -23,6 +24,7 @@
       <module name="ed-item-interface" options="-parameters" />
       <module name="ed-item-service" options="-parameters" />
       <module name="ed-registry" options="-parameters" />
+      <module name="ed-upload" options="-parameters" />
       <module name="ed.registry" options="-parameters" />
       <module name="eddy" options="-parameters" />
     </option>

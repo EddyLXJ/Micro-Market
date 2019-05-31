@@ -8,5 +8,6 @@
     <file url="file://$PROJECT_DIR$/ed-item/ed-item-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ed-item/ed-item-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ed-registry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ed-upload" charset="UTF-8" />
   </component>
 </project>

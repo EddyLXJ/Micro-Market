@@ -13,6 +13,7 @@
         <module>ed-gateway</module>
         <module>ed-item</module>
         <module>ed-common</module>
+        <module>ed-upload</module>
     </modules>
 
     <name>eddy</name>
