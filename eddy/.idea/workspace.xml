@@ -2,40 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09d16c81-d365-4cf8-beff-073836f23800" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed-common/src/main/java/com/eddy/common/adivce/CommonExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed-common/src/main/java/com/eddy/common/enums/ExceptionEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed-common/src/main/java/com/eddy/common/exception/EdException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed-common/src/main/java/com/eddy/common/vo/ExceptionResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed-common/src/main/java/com/eddy/common/vo/PageResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed-gateway/src/main/java/com/eddy/gateway/config/GlobalCorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed-item/ed-item-interface/src/main/java/com/eddy/item/pojo/Brand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed-item/ed-item-interface/src/main/java/com/eddy/item/pojo/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed-item/ed-item-service/src/main/java/com/eddy/item/mapper/BrandMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed-item/ed-item-service/src/main/java/com/eddy/item/mapper/CategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed-item/ed-item-service/src/main/java/com/eddy/item/service/BrandService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed-item/ed-item-service/src/main/java/com/eddy/item/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed-item/ed-item-service/src/main/java/com/eddy/item/web/BrandController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed-item/ed-item-service/src/main/java/com/eddy/item/web/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed-upload/ed-upload.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed-upload/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed-upload/src/main/java/com/eddy/EdUploadApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed-upload/src/main/java/com/eddy/upload/service/UploadService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed-upload/src/main/java/com/eddy/upload/web/UploadController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ed-upload/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ed-upload/src/main/java/com/eddy/upload/config/FastClientImporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ed-upload/src/main/java/com/eddy/upload/config/UploadProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ed-upload/src/test/java/com/eddy/upload/FdfsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ed-upload/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ed-upload/target/classes/com/eddy/EdUploadApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ed-upload/target/classes/com/eddy/upload/service/UploadService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ed-upload/target/classes/com/eddy/upload/web/UploadController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload/google.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ed-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ed-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ed-item/ed-item-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ed-item/ed-item-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ed-item/ed-item-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ed-item/ed-item-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ed-item/ed-item-service/src/main/java/com/eddy/EdItemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ed-item/ed-item-service/src/main/java/com/eddy/EdItemApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ed-item/ed-item-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ed-item/ed-item-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ed-item/ed-item-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ed-item/ed-item-service/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ed-item/ed-item-service/target/classes/com/eddy/EdItemApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/ed-item/ed-item-service/target/classes/com/eddy/EdItemApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ed-common/src/main/java/com/eddy/common/enums/ExceptionEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/ed-common/src/main/java/com/eddy/common/enums/ExceptionEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ed-common/target/classes/com/eddy/common/enums/ExceptionEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/ed-common/target/classes/com/eddy/common/enums/ExceptionEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ed-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ed-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ed-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ed-gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ed-upload/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ed-upload/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ed-upload/src/main/java/com/eddy/upload/service/UploadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ed-upload/src/main/java/com/eddy/upload/service/UploadService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ed-upload/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ed-upload/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,13 +41,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ed-item/ed-item-service/src/main/java/com/eddy/item/service/BrandService.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1840">
+              <caret line="92" column="59" selection-start-line="92" selection-start-column="59" selection-end-line="92" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -72,30 +52,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ed-upload/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1000">
-              <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
+            <state relative-caret-position="1028">
+              <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ed-upload/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="276">
+              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ed-upload/src/main/java/com/eddy/EdUploadApplication.java">
+        <entry file="file://$PROJECT_DIR$/ed-upload/ed-upload.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ed-upload/src/test/java/com/eddy/upload/FdfsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+            <state relative-caret-position="756">
+              <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#337#338#0" expanded="true" />
-                <element signature="e#375#376#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -104,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ed-upload/src/main/java/com/eddy/upload/web/UploadController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="762">
+              <caret line="24" column="65" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ed-upload/src/main/java/com/eddy/upload/service/UploadService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+            <state relative-caret-position="218">
+              <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -126,10 +109,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ed-common/src/main/java/com/eddy/common/exception/EdException.java">
+        <entry file="file://$PROJECT_DIR$/ed-upload/src/main/java/com/eddy/upload/config/UploadProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="462">
+              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,10 +121,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ed-item/ed-item-service/src/main/java/com/eddy/item/mapper/BrandMapper.java">
+        <entry file="file://$PROJECT_DIR$/ed-upload/src/main/java/com/eddy/upload/config/FastClientImporter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="9" column="90" selection-start-line="9" selection-start-column="90" selection-end-line="9" selection-end-column="90" />
+            <state relative-caret-position="420">
+              <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -150,25 +133,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ed-common/src/main/java/com/eddy/common/enums/ExceptionEnum.java">
+        <entry file="file://$PROJECT_DIR$/ed-gateway/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ed-item/ed-item-service/src/main/java/com/eddy/item/web/BrandController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="860">
-              <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="714">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -196,7 +164,6 @@
         <option value="$PROJECT_DIR$/ed-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/ed-gateway/src/main/java/com/eddy/gateway/EdGateway.java" />
         <option value="$PROJECT_DIR$/ed-item/pom.xml" />
-        <option value="$PROJECT_DIR$/ed-gateway/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ed-registry/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ed-common/src/main/java/com/eddy/common/utils/CookieUtils.java" />
         <option value="$PROJECT_DIR$/ed-common/src/main/java/com/eddy/common/utils/JsonUtils.java" />
@@ -225,13 +192,17 @@
         <option value="$PROJECT_DIR$/ed-item/ed-item-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ed-item/ed-item-service/src/main/java/com/eddy/item/web/BrandController.java" />
         <option value="$PROJECT_DIR$/ed-item/ed-item-service/src/main/java/com/eddy/item/mapper/BrandMapper.java" />
-        <option value="$PROJECT_DIR$/ed-common/src/main/java/com/eddy/common/enums/ExceptionEnum.java" />
         <option value="$PROJECT_DIR$/ed-item/ed-item-service/src/main/java/com/eddy/item/service/BrandService.java" />
-        <option value="$PROJECT_DIR$/ed-upload/pom.xml" />
-        <option value="$PROJECT_DIR$/ed-upload/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ed-upload/src/main/java/com/eddy/EdUploadApplication.java" />
         <option value="$PROJECT_DIR$/ed-upload/src/main/java/com/eddy/upload/web/UploadController.java" />
+        <option value="$PROJECT_DIR$/ed-common/src/main/java/com/eddy/common/enums/ExceptionEnum.java" />
+        <option value="$PROJECT_DIR$/ed-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ed-upload/pom.xml" />
+        <option value="$PROJECT_DIR$/ed-upload/src/main/java/com/eddy/upload/config/FastClientImporter.java" />
+        <option value="$PROJECT_DIR$/ed-upload/src/test/java/com/eddy/upload/FdfsTest.java" />
         <option value="$PROJECT_DIR$/ed-upload/src/main/java/com/eddy/upload/service/UploadService.java" />
+        <option value="$PROJECT_DIR$/ed-upload/src/main/java/com/eddy/upload/config/UploadProperties.java" />
+        <option value="$PROJECT_DIR$/ed-upload/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -302,6 +273,32 @@
             <path>
               <item name="eddy" type="b2602c69:ProjectViewProjectNode" />
               <item name="eddy" type="462c0819:PsiDirectoryNode" />
+              <item name="ed-gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eddy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eddy" type="462c0819:PsiDirectoryNode" />
+              <item name="ed-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eddy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eddy" type="462c0819:PsiDirectoryNode" />
+              <item name="ed-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eddy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eddy" type="462c0819:PsiDirectoryNode" />
+              <item name="ed-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eddy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eddy" type="462c0819:PsiDirectoryNode" />
               <item name="ed-upload" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -343,6 +340,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="eddy" type="462c0819:PsiDirectoryNode" />
               <item name="upload" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eddy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eddy" type="462c0819:PsiDirectoryNode" />
+              <item name="ed-upload" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="eddy" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="eddy" type="b2602c69:ProjectViewProjectNode" />
@@ -374,6 +382,30 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="eddy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eddy" type="462c0819:PsiDirectoryNode" />
+              <item name="ed-upload" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eddy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eddy" type="462c0819:PsiDirectoryNode" />
+              <item name="ed-upload" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eddy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eddy" type="462c0819:PsiDirectoryNode" />
+              <item name="ed-upload" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -392,7 +424,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../leyou-manage-web" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -416,7 +448,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EdRegistry (1)">
+  <component name="RunManager" selected="JUnit.FdfsTest.testUploadAndCreateThumb">
+    <configuration name="FdfsTest.testUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ed-upload" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eddy.upload.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.eddy.upload" />
+      <option name="MAIN_CLASS_NAME" value="com.eddy.upload.FdfsTest" />
+      <option name="METHOD_NAME" value="testUpload" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FdfsTest.testUploadAndCreateThumb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ed-upload" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eddy.upload.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.eddy.upload" />
+      <option name="MAIN_CLASS_NAME" value="com.eddy.upload.FdfsTest" />
+      <option name="METHOD_NAME" value="testUploadAndCreateThumb" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EdGateway" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ed-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.eddy.gateway.EdGateway" />
@@ -451,11 +515,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EdUploadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ed-upload" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eddy.EdUploadApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FdfsTest.testUploadAndCreateThumb" />
+        <item itemvalue="JUnit.FdfsTest.testUpload" />
         <item itemvalue="Spring Boot.EdRegistry (1)" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SpringBootOptions">
+    <option name="showAdditionalConfigNotification" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -468,18 +544,59 @@
       <option name="presentableId" value="Default" />
       <updated>1559007841587</updated>
       <workItem from="1559007844845" duration="1640000" />
-      <workItem from="1559009825618" duration="20875000" />
+      <workItem from="1559009825618" duration="29189000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="FdfsTest_testUpload - 2019.05.31 at 19h 29m 19s.xml">
+      <configuration name="FdfsTest.testUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FdfsTest_testUploadAndCreateThumb - 2019.05.31 at 19h 29m 57s.xml">
+      <configuration name="FdfsTest.testUploadAndCreateThumb" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FdfsTest_testUpload - 2019.05.31 at 19h 33m 03s.xml">
+      <configuration name="FdfsTest.testUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FdfsTest_testUpload - 2019.05.31 at 19h 33m 35s.xml">
+      <configuration name="FdfsTest.testUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FdfsTest_testUpload - 2019.05.31 at 19h 34m 02s.xml">
+      <configuration name="FdfsTest.testUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FdfsTest_testUpload - 2019.05.31 at 19h 40m 16s.xml">
+      <configuration name="FdfsTest.testUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FdfsTest_testUploadAndCreateThumb - 2019.05.31 at 19h 40m 26s.xml">
+      <configuration name="FdfsTest.testUploadAndCreateThumb" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FdfsTest_testUploadAndCreateThumb - 2019.05.31 at 19h 49m 21s.xml">
+      <configuration name="FdfsTest.testUploadAndCreateThumb" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FdfsTest_testUploadAndCreateThumb - 2019.05.31 at 19h 50m 59s.xml">
+      <configuration name="FdfsTest.testUploadAndCreateThumb" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FdfsTest_testUploadAndCreateThumb - 2019.05.31 at 19h 51m 38s.xml">
+      <configuration name="FdfsTest.testUploadAndCreateThumb" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22515000" />
+    <option name="totallyTimeSpent" value="30829000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="128" y="-8" width="3074" height="1810" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2511737" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2511737" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -490,24 +607,24 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32994407" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Run Dashboard" order="2" visible="true" weight="0.22028625" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="2" visible="true" weight="0.531425" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32994407" />
-      <window_info anchor="bottom" id="Run" order="4" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.3876789" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="8" />
-      <window_info anchor="bottom" id="Spring" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32994407" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.3298071" />
+      <window_info anchor="bottom" id="Spring" order="9" weight="0.3298071" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3298071" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3298071" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="bottom" id="Version Control" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.32992822" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32964453" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="SciView" order="6" />
@@ -563,13 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="715">
-          <caret line="92" column="65" selection-start-line="92" selection-start-column="65" selection-end-line="92" selection-end-column="65" />
         </state>
       </provider>
     </entry>
@@ -714,13 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ed-gateway/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ed-item/ed-item-interface/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -826,16 +929,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ed-common/src/main/java/com/eddy/common/enums/ExceptionEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ed-item/ed-item-service/src/main/java/com/eddy/item/service/BrandService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="496">
@@ -846,17 +939,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ed-upload/pom.xml">
+    <entry file="file://$PROJECT_DIR$/ed-common/src/main/java/com/eddy/common/enums/ExceptionEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="24" column="45" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ed-upload/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="714">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -874,8 +963,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ed-upload/src/main/java/com/eddy/upload/web/UploadController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="762">
+          <caret line="24" column="65" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ed-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ed-upload/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1028">
+          <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1840">
+          <caret line="92" column="59" selection-start-line="92" selection-start-column="59" selection-end-line="92" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ed-upload/src/main/java/com/eddy/upload/config/FastClientImporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ed-upload/ed-upload.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ed-upload/src/test/java/com/eddy/upload/FdfsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -884,11 +1017,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ed-upload/src/main/java/com/eddy/upload/service/UploadService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+        <state relative-caret-position="218">
+          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ed-upload/src/main/java/com/eddy/upload/config/UploadProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ed-upload/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
         </state>
       </provider>
     </entry>
